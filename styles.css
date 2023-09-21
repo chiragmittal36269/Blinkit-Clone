@@ -175,6 +175,7 @@ header .container {
     column-gap: 22px;
     /* justify-content: space-between; */
     overflow: auto;
+    /* flex-wrap: wrap; */
 }
 
 .list-items .item {
@@ -212,6 +213,21 @@ header .container {
 .item-details .item-name {
     font-size: 12px;
     font-weight: 800;
+    width: 90%;
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+    /* //////////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+    font-weight: 800;
+    width: 90%;
+    height: 9vmin;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.item-details .item-name::-webkit-scrollbar {
+    visibility: hidden;
 }
 
 .item-details .item-weight {
